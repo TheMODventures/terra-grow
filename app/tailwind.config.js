@@ -48,6 +48,23 @@ module.exports = {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        terragrow: {
+          dark: '#0a0a0f',
+          'dark-secondary': '#111118',
+          white: '#f5f5f7',
+          gray: '#8e8e93',
+          blue: '#0071e3',
+          'blue-light': '#2997ff',
+        },
+      },
+      fontFamily: {
+        display: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      fontSize: {
+        hero: ['3.5rem', { lineHeight: '1.1', fontWeight: '700' }],
+        h2: ['2.5rem', { lineHeight: '1.2', fontWeight: '600' }],
+        h3: ['1.25rem', { lineHeight: '1.4', fontWeight: '600' }],
+        body: ['1.125rem', { lineHeight: '1.7' }],
       },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",
@@ -55,6 +72,8 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
         xs: "calc(var(--radius) - 6px)",
+        button: "0.5rem",
+        card: "1rem",
       },
       boxShadow: {
         xs: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
